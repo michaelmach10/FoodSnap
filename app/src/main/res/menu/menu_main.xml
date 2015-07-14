@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:title="Ver en mapa"
+        android:id="@+id/mMapa"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Ver lista de platos"
+        android:id="@+id/mPlatos"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Hacer Reserva"
+        android:id="@+id/mReservar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Cancelar"
+        android:id="@+id/mCancelar"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

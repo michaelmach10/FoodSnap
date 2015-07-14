@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="pe.mach.foodsnap.Comidas">
+    <item android:title="Ir"
+        android:id="@+id/mIr"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Pedido"
+        android:id="@+id/mPedido"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Reserva"
+        android:id="@+id/mReserva"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="Cancelar"
+        android:id="@+id/mCancelar"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
